@@ -1,0 +1,467 @@
+/* 
+* @Author: Administrator
+* @Date:   2018-01-31 09:59:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-31 19:51:35
+*/ 
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* 头部开始 */
+.header{
+	width: 7.5rem;
+	height: 0.61rem;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0.36rem;
+	font-family: "苹方";
+	color: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header_left{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin-left: 0.24rem;
+	margin-top: 0.29rem;
+}
+.header_left_tupian{
+	float: left;
+	width: 0.19rem;
+	height: 0.3rem;
+}
+.header_right{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.22rem;
+}
+.header_right_tupian{
+	float: right;
+	width: 0.4rem;
+	height: 0.4rem;
+}
+.headerbottom{
+	width: 7.5rem;
+	height: 0.6rem;
+	background: yellow;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+
+}
+.header_bottom{
+	width: 7.5rem;
+	height: 0.61rem;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+	font-size: 0.18rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.62rem;
+	color: #ffffff;
+}
+.header_sousuo{
+	width: 7.5rem;
+	height: 0.54rem;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+	position: relative;
+}
+.header_sousuosousuo{
+	display: block;
+	width: 7.02rem;
+	height: 0.5rem;
+	border-radius: 0.1rem;
+	border: 0.02rem solid #a3d7f1;
+	background: #68bbe7;
+	margin-left: 0.24rem;
+}
+.header_sousuosousuo_left{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	background: url('../img/yuejisousuo.png');
+	background-size: cover;
+	margin-left: 0.17rem;
+	margin-top: 0.1rem;
+}
+.header_sousuosousuo_center{
+	width: 1rem;
+	height: 0.48rem;
+	float: left;
+	margin-left: 0.31rem;
+	margin-top: 0.02rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #d8ebf7;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.header_sousuosousuo_right{
+	display: block;
+	width: 0.58rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float:right;
+	position: absolute;
+	top: 0.1rem;
+	right: 0.37rem;
+	border-radius: 0.14rem;
+}
+.header_sousuosousuo_right_img{
+	width: 0.58rem;
+	height: 0.32rem;
+	background: url('../img/liushuisousuo.png') no-repeat center;
+	background-size: cover;
+}
+/* 背景开始 */
+.beijing{
+	width: 7.5rem;
+	height: 1.19rem;
+	background: url('../img/yuejibeijing.png') no-repeat center;
+	background-size: cover;
+}.beijingzuo{
+	float: left;
+	display: block;
+	width: 1.93rem;
+	height: 0.88rem;
+	background: #ffffff;
+	box-shadow: 0 0.5rem 20rem 0.04rem rgba(0, 0, 0, 0.3);
+	margin-left: 0.48rem;
+	margin-top: 0.25rem;
+	border-radius: 0.1rem;
+}
+.beijingzuo_img{
+	float: left;
+	width: 0.66rem;
+	height: 0.66rem;
+	margin-top: 0.11rem;
+	margin-left: 0.11rem;
+	background: url('../img/yuejizuo.png') no-repeat center;
+	background-size: cover;
+}
+.beijingzuotext2{
+	width: 1.05rem;
+	height: 0.14rem;
+	float: right;
+	margin-top: 0.12rem;
+	margin-right: 0.08rem;
+	font-size: 0.14rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.14rem;
+	color: #81d4f8;
+
+}
+.beijingzuotext1{
+	float: left;
+	width: 0.4rem;
+	height: 0.2rem;
+	margin-left: 0.33rem;
+	margin-top: 0.21rem;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.2rem;
+	color: #727272;
+}
+.beijingzhong{
+	float: left;
+	display: block;
+	width: 2.2rem;
+	height: 1rem;
+	background: #ffffff;
+	box-shadow: 0 0.5rem 20rem 0.04rem rgba(0, 0, 0, 0.3);
+	margin-left: 0.24rem;
+	margin-top: 0.19rem;
+	border-radius: 0.1rem;
+
+}
+.beijingyou{
+	float:right;
+	display: block;
+	width: 1.93rem;
+	height: 0.88rem;
+	background: #ffffff;
+	box-shadow: 0 0.5rem 20rem 0.04rem rgba(0, 0, 0, 0.3);
+	margin-right: 0.48rem;
+	margin-top: 0.25rem;
+	border-radius: 0.1rem;
+}
+.beijingyou_img{
+	float: left;
+	width: 0.66rem;
+	height: 0.66rem;
+	margin-top: 0.11rem;
+	margin-left: 0.11rem;
+	background: url('../img/yuejiyou.png') no-repeat center;
+	background-size: cover;
+}
+.beijingyoutext2{
+	width: 1.05rem;
+	height: 0.14rem;
+	float: right;
+	margin-top: 0.12rem;
+	margin-right: 0.08rem;
+	font-size: 0.14rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.14rem;
+	color: #81d4f8;
+
+}
+.beijingyoutext1{
+	float: left;
+	width: 0.4rem;
+	height: 0.2rem;
+	margin-left: 0.33rem;
+	margin-top: 0.21rem;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.2rem;
+	color: #727272;
+}
+.beijingzhong_img{
+	width: 0.74rem;
+	height: 0.74rem;
+	float: left;
+	margin-top: 0.13rem;
+	margin-left: 0.13rem;
+	background: url('../img/yuejizuo.png') no-repeat center;
+	background-size: cover;
+}
+.beijingzhongtext1{
+	float: left;
+	width: 0.44rem;
+	height: 0.22rem;
+	margin-left: 0.37rem;
+	margin-top: 0.23rem;
+	font-size: 0.22rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.22rem;
+	color: #727272;
+}
+.beijingzhongtext2{
+	width:1.13rem; 
+	height: 0.14rem;
+	float: right;
+	margin-top: 0.15rem;
+	margin-right: 0.13rem;
+	font-size: 0.14rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.14rem;
+	color: #81d4f8;
+}
+/* 头部结束 
+/* 图表开始 */
+.tubiao{
+	width: 7.5rem;
+	height: 3.26rem;
+	background: url('../img/yuejitubiao.png') no-repeat center;
+	background-size: cover;
+}
+/* 图表结束 */
+/* 列表开始 */
+.list{
+	width: 7.5rem;
+	height: 7.14rem;
+}
+.list_kongbai{
+	width: 7.5rem;
+	height: 0.98rem;
+	background: #ffffff;
+}
+.list_kongbai_tupian{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-top: 0.38rem;
+	margin-left: 0.24rem;
+	background: url('../img/yuejizongji.png') no-repeat center;
+	background-size: cover;
+	float: left;
+}
+.list_kongbai_text{
+	float: left;
+	width: 0.48rem;
+	height: 0.24rem;
+	margin-left: 0.29rem;
+	margin-top: 0.42rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.24rem;
+	color: #039be5;
+}
+.list_kongbai_munber{
+	width: 0.72rem;
+	height: 0.18rem;
+	float: right;
+	margin-right: 0.24rem;
+	margin-top: 0.48rem;
+	font-size: 0.18rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.18rem;
+	color: #039be5;
+}
+.list ul{
+	width: 7.5rem;
+	height: 6.16rem;
+	background: #ffffff;
+}
+.list ul li{
+	width: 7.5rem;
+	height: 0.88rem;
+	border-bottom: 0.01rem dashed #dddcdc;
+}
+.list_tupian{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yuejicanfei.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_text{
+	float: left;
+	width: 0.48rem;
+	height: 0.24rem;
+	margin-left: 0.34rem;
+	margin-top: 0.3rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.24rem;
+	color: #039be5;
+}
+.list_yuanjiaojuxing{
+	float: left;
+	width: 0.60rem;
+	height: 0.1rem;
+	margin-left: 0.65rem;
+	margin-top: 0.35rem;
+	border-radius: 0.45rem;
+	background: #64cfff;
+}
+.list_number1{
+	width: 0.48rem;
+	height: 0.24rem;
+	float: left;
+	margin-top: 0.2rem;
+	margin-left: 0.18rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	color: #a3e2ff;
+}
+.list_number2{
+	float: right;
+	width: 0.56rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	margin-right: 0.3rem;
+	margin-top: 0.2rem;
+	color: #7dd8ff;
+}
+
+.list_tupian2{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yuejiyiliao.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_tupian3{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yuejiyule.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_tupian4{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yuejijiaotong.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_tupian5{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yujihuefei.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_tupian6{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yuejijiechu .png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_tupian7{
+	float: left;
+	width: 0.3rem;
+	height: 0.3rem;
+	background: url('../img/yuejiqita.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.24rem;
+}
+.list_yuanjiaojuxing3{
+	float: left;
+	width: 0.8rem;
+	height: 0.1rem;
+	margin-left: 0.65rem;
+	margin-top: 0.35rem;
+	border-radius: 0.45rem;
+	background: #64cfff;
+}
+.list_yuanjiaojuxing4{
+	float: left;
+	width: 0.4rem;
+	height: 0.1rem;
+	margin-left: 0.65rem;
+	margin-top: 0.35rem;
+	border-radius: 0.45rem;
+	background: #64cfff;
+}
+.list_yuanjiaojuxing5{
+	float: left;
+	width: 0.48rem;
+	height: 0.1rem;
+	margin-left: 0.65rem;
+	margin-top: 0.35rem;
+	border-radius: 0.45rem;
+	background: #64cfff;
+}
+.list_yuanjiaojuxing7{
+	float: left;
+	width: 0.32rem;
+	height: 0.1rem;
+	margin-left: 0.65rem;
+	margin-top: 0.35rem;
+	border-radius: 0.45rem;
+	background: #64cfff;
+}
+/* 列表结束 */

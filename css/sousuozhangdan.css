@@ -1,0 +1,428 @@
+/* *
+* @Author: Administrator
+* @Date:   2018-01-31 22:47:32
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-02 14:10:20
+* */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	background: #eaeaea;
+}
+/* 头部结束 */
+.hedader{
+	width: 7.5rem;
+	height: 1.73rem;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+}
+.header_top{
+	width: 7.5rem;
+	height: 0.88rem;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+	font-size: 0.34rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.88rem;
+	color: #ffffff;
+}
+.hedader_left{
+	float: left;
+	display: block;
+	width: 0.19rem;
+	height: 0.3rem;
+	background: url('../img/liushuifanhui2.png') no-repeat center;
+	background-size: cover;
+	margin-left: 0.24rem;
+	margin-top: 0.29rem;
+}
+.header_juzhong{
+	float: right;
+	width: 1.4rem;
+	height: 0.68rem;
+	margin-top: 0.1rem;
+	margin-right: 3.05rem;
+	font-size: 0.34rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.68rem;
+	color: #ffffff;
+}
+.header_bottom{
+	width: 7.5rem;
+	height: 0.85rem;
+	overflow: hidden;
+	background: linear-gradient(to right,#0288d1,#4ec2f7);
+}
+.header_bottom_sousuolan{
+	width: 6.96rem;
+	height: 0.57rem;
+	background: #75cbf3;
+	margin-left: 0.24rem;
+	margin-top: 0.04rem;
+	border-radius: 0.1rem;
+	border: 0.02rem solid #b9e0f4;
+	position: relative;
+}
+/* .header_bottom_sousuo{
+	display: block;
+	width: 6.96rem;
+	height: 0.57rem;
+	background: #75cbf3;
+	margin-left: 0.24rem;
+	margin-top: 0.04rem;
+	border-radius: 0.1rem;
+	border: 0.02rem solid #b9e0f4;
+	position: relative;
+} */
+.header_bottom_sousuolan_left{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	background: url('../img/yuejisousuo.png');
+	background-size: cover;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+}
+/* .header_bottom_sousuo_left{
+	width: 0.3rem;
+	height: 0.3rem;
+	float: left;
+	background: url('../img/yuejisousuo.png');
+	background-size: cover;
+	margin-left: 0.16rem;
+	margin-top: 0.14rem;
+} */
+[type="text"]{
+	width: 4.5rem;
+	height: 0.5rem;
+	float: left;
+	margin-top: 0.05rem;
+	margin-left: 0.1rem;
+	border: 0;
+	background: #75cbf3;
+}
+.shurukuang1:focus{
+	outline: none;
+}
+/* .header_bottom_sousuo_text{
+	background: #75cbf3;
+	width: 2.04rem;
+	height: 0.3rem;
+	float: left;
+	margin-left: 0.1rem;
+	margin-top: 0.15rem;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.3rem;
+	color: #ffffff;
+} */
+.header_bottom_sousuolan_right{
+	display: block;
+	width: 0.58rem;
+	height: 0.32rem;
+	background: url('../img/liushuisousuo.png') no-repeat center;
+	float: right;
+	margin-top: 0.11rem;
+	margin-right: 0.15rem;
+	border-radius: 0.14rem;
+}
+/* .header_bottom_sousuo_rigth{
+	width: 0.58rem;
+	height: 0.32rem;
+	background: #ffffff;
+	float: right;
+	margin-top: 0.11rem;
+	margin-right: 0.15rem;
+	border-radius: 0.14rem;
+}
+.header_bottom_sousuo_rigth_anniu{
+	display: block;
+	width: 0.58rem;
+	height: 0.32rem;
+}
+.header_bottom_sousuo_rigth_img{
+	width: 0.58rem;
+	height: 0.32rem;
+	background: url('../img/liushuisousuo.png') no-repeat center;
+	background-size: cover;
+} */
+/* 头部结束 */
+/* 快速搜索开始 */
+.qiuck{
+	width: 7.5rem;
+	height: 4.14rem;
+	background: #ffffff;
+	overflow: hidden;
+	box-shadow: 0 0.05rem 0.2rem 0.04rem rgba(0, 0, 0, 0.2);
+	border-radius: 0.1rem;
+}
+.qiuck_top{
+	width: 1.67rem;
+	height: 0.43rem;
+	margin-top: 0.37rem;
+	margin-left: 0.24rem;
+	background: #ffffff;
+}
+.qiuck_top_img{
+	float: left;
+	width: 0.32rem;
+	height: 0.43rem;
+	background: url('../img/kuaisusousuo.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_top_text1{
+	background: #ffffff;
+	width: 1.35rem;
+	height: 0.22rem;
+	float: left;
+	font-size: 0.22rem;
+	font-family: "苹方";
+	line-height: 0.22rem;
+	text-align: center;
+	color: #737373;
+}
+.qiuck_top_text2{
+	background: #ffffff;
+	width: 1.2rem;
+	height: 0.14rem;
+	float: right;
+	margin-top: 0.08rem;
+	font-size: 0.14rem;
+	font-family: "苹方";
+	line-height: 0.14rem;
+	text-align: center;
+	color: #cbcbcb;
+}
+.qiuck_bottom{
+	width: 7.5rem;
+	height: 2.89rem;
+	background:#ffffff;
+	margin-top: 0.45rem;
+/* 	box-shadow: 0 0.05rem 0.2rem 0.04rem rgba(0, 0, 0, 0.2) */
+}
+.qiuck_bottom_every{
+	background: #ffffff;
+	width: 0.67rem;
+	height: 1.02rem;
+	float: left;
+	margin-right: 0.73rem;
+	margin-bottom: 0.48rem;
+}
+.qiuck_bottom .qiuck_bottom_every:nth-child(5){
+	margin-right: 0.61rem;
+}
+.qiuck_bottom .qiuck_bottom_every:last-child{
+	margin-right: 0.61rem;
+}
+.qiuck_bottom .qiuck_bottom_every:first-child{
+	margin-left: 0.61rem;
+}
+.qiuck_bottom .qiuck_bottom_every:nth-child(6){
+	margin-left: 0.61rem;
+}
+.qiuck_bottom_every_img{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuozaocan.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_text{
+	background: #ffffff;
+	width: 0.67rem;
+	height: 0.2rem;
+	margin-top: 0.15rem;
+	font-size: 0.2rem;
+	font-family: "苹方";
+	color: #737373;
+	text-align: center;
+	line-height: 0.2rem;
+}
+.qiuck_bottom_every_img2{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuowucan.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img3{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuowancan.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img4{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuodache.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img5{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuojipiao.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img6{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuohuafei.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img7{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuoyiliao.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img8{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuoyule.png') no-repeat center;
+	background-size: cover;
+
+}
+.qiuck_bottom_every_img9{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuoyanjiu.png') no-repeat center;
+	background-size: cover;
+}
+.qiuck_bottom_every_img10{
+	display: block;
+	width: 0.67rem;
+	height: 0.67rem;
+	background: url('../img/sousuolingshi.png') no-repeat center;
+	background-size: cover;
+}
+/* 快速搜索结束 */
+/* 间隔 */
+/* .jiange{
+	width: 7.5rem;
+	height: 0.24rem;
+	background: #e6e6e6;
+} */
+
+/* 历史记录开始 */
+.hiastory{
+	width: 7.5rem;
+	height: 2.73rem;
+	border-radius: 0.1rem;
+	margin-top: 0.24rem;
+	border-top-left-radius: 0.1rem;
+}
+.hiastory_top{
+	width: 7.5rem;
+	height: 0.94rem;
+	background: #ffffff;
+	overflow: hidden;
+}
+.hiastory_bottom{
+	width: 7.5rem;
+	height: 1.79rem;
+}
+.hiastory_top_img{
+	float: left;
+	width: 0.39rem;
+	height: 0.39rem;
+	margin-top: 0.27rem;
+	margin-left: 0.24rem;
+	background: url('../img/sousuolishijilu.png') no-repeat center;
+	background-size: cover;
+}
+.hiastory_top_text{
+	background: #ffffff;
+	width: 1.7rem;
+	height: 0.42rem;
+	float: left;
+	margin-top: 0.28rem;
+	margin-left: 0.1rem; 
+}
+.hiastory_top_text1{
+	background: #ffffff;
+	float: left;
+	width: 0.94rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.22rem;
+	color: #737373;
+}
+.hiastory_top_text2{
+	background: #ffffff;
+	float: left;
+	width: 1.7rem;
+	height: 0.12rem;
+	margin-top: 0.08rem;
+	font-size: 0.12rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.12rem;
+	color: #b8b8b8;
+}
+.hiastory_top_right{
+	width: 0.28rem;
+	height: 0.34rem;
+	background: url('../img/sousoushanchu.png') no-repeat center;
+	background-size: cover;
+	float: left;
+	margin-left: 4.64rem;
+	margin-top: 0.36rem;
+}
+.hiastory_bottom_list{
+	width: 7.5rem;
+	height: 0.76rem;
+	overflow: hidden;
+	background: #ffffff;
+}
+.hiastory_bottom_list_text1{
+	background: #ffffff;
+	float: left;
+	width: 0.48rem;
+	height: 0.48rem;
+	margin-top: 0.13rem;
+	margin-left: 0.6rem;
+	font-size: 0.24rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.48rem;
+	color: #737373;
+}
+.hiastory_bottom_list_text2{
+	background: #ffffff;
+	width: 0.5rem;
+	height: 0.24rem;
+	float: right;
+	margin-top: 0.26rem;
+	margin-right: 0.24rem;
+	font-size: 0.12rem;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.24rem;
+	color: #b8b8b8;
+}
+.hiastory_bottom_list2{
+	width: 7.5rem;
+	height: 0.27rem;
+	background: #ffffff;
+}
+/* 历史记录结束 */
+/* 语音搜索开始 */
+.yuyin{
+	width: 7.5rem;
+	height: 4.14rem;
+	background: url('../img/sousuozhangdansousuo.png') no-repeat center;
+	background-size: cover;
+}
+/* 语音搜索结束 */
